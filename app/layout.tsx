@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Product List with cart",
-  description: "the first time doing such thing easy on me",
+  description: "the first time doing such thing easy on me <3",
 };
 
 export default function RootLayout({
@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
+      <body className="bg-[#FDF5E6]"
       >
         {children}
       </body>

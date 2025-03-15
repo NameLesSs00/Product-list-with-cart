@@ -1,7 +1,10 @@
-import Image from "next/image";
 
+import Product from "./components/Product";
 export default function Home() {
   return (
-   <h1>test</h1>
+    <>
+    <Product/>
+
+    </>
   );
 }
